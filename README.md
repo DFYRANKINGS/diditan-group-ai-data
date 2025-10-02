@@ -1,6 +1,6 @@
-# Client AI Data Template
+# Diditan Group AI Data
 
-A comprehensive template repository for creating AI-optimized client data systems with automated workflows, structured data generation, and multi-platform content distribution.
+A comprehensive repository for creating AI-optimized data systems with automated workflows, structured data generation, and multi-platform content distribution.
 
 ## 🚀 Quick Start
 
