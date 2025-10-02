@@ -7,7 +7,7 @@ import glob
 
 def get_site_url():
     # Serve files via GitHub Raw — publicly crawlable by search engines & AI bots
-    return "https://raw.githubusercontent.com/DFYRANKINGS/{NEW_REPO_NAME}/main"
+    return "https://raw.githubusercontent.com/DFYRANKINGS/diditan-group-ai-data/main"
 
 def find_generated_files():
     """Find all generated .json, .yaml, .md, .llm in schema-files/"""
@@ -58,7 +58,7 @@ def main():
         f.write(sitemap_content)
 
     print("✅ ai-sitemap.xml generated successfully.")
-    print("🌐 Test a file: https://raw.githubusercontent.com/DFYRANKINGS/{NEW_REPO_NAME}/main/schema-files/organization/main-data.json")
+    print("🌐 Test a file: https://raw.githubusercontent.com/DFYRANKINGS/diditan-group-ai-data/main/schema-files/organization/main-data.json")
 
 if __name__ == "__main__":
     main()
